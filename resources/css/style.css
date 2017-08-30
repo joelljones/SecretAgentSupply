@@ -66,15 +66,19 @@ nav {
   color: white;
 }
 
-nav .container {
+nav .container .desktop {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-nav .container span {
+nav .container .desktop span {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.menu {
+  display: none;
 }
 
 .products {
@@ -137,4 +141,36 @@ footer {
 footer .container {
   text-align: left;
   padding: 2rem 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .headline h4 {
+    font-size: 0.5rem;
+  }
+
+  .headline h1 {
+    font-size: 1.5rem;
+  }
+
+  nav .container .desktop {
+    display: none;
+  }
+
+  nav .container .menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav .container .menu {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .product {
+    width: 47%;
+  }
+
+  #glasses {
+    display: none;
+  }
 }
