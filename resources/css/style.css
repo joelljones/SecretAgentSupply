@@ -3,6 +3,10 @@ html {
   font-family: Helvetica;
 }
 
+body {
+  margin: 0 auto;
+}
+
 .container {
   width: 960px;
   margin: 0 auto;
@@ -145,11 +149,11 @@ footer .container {
 
 @media only screen and (max-width: 1024px) {
   .headline h4 {
-    font-size: 0.5rem;
+    font-size: 0.85rem;
   }
 
   .headline h1 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 
   nav .container .desktop {
@@ -172,5 +176,62 @@ footer .container {
 
   #glasses {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .banner {
+    height: 15rem;
+  }
+
+  .container {
+    width: auto;
+  }
+
+  .headline {
+    top: 10.75rem;
+    color: white;
+    background-color: black;
+    padding: 1rem 2rem;
+    width: auto;
+  }
+
+  .headline h4 {
+    font-size: .77rem;
+  }
+
+  .headline h1 {
+    font-size: 1rem;
+  }
+
+  .products {
+    justify-content: center;
+  }
+
+  .product {
+    width: 90%;
+  }
+
+  #watch,
+  #glasses {
+    display: none;
+  }
+
+  .store {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .store-info {
+    width: 90%;
+  }
+
+  #hours {
+    padding-top: 0.5rem;
+  }
+
+  footer .container {
+    text-align: center;
   }
 }
