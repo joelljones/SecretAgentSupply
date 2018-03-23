@@ -1,5 +1,8 @@
 # Secret Agent Supply
-A responsive website for the fictional Secret Agent Supply Inc., the world’s leader in secret agent tech.
+
+A responsive website  with unique desktop, tablet and mobile appearances for a fictional secret agent tech company.
+
+- HTML and CSS.
 
 ### Design mocks:
 
